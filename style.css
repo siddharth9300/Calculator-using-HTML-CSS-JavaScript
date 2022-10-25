@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap");
+html,
+body {
+  /* height: 100%;
+  width: 100%; */
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+}
+
+.button {
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+  margin: 0 4px;
+  border: none;
+  background-color: #2f2f2f;
+  color: white;
+  font-weight:bolder;
+  font-size: 30px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: #1b1919;
+}
+
+.button
+
+
+.top-btn{
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+  margin: 0 4px;;
+  border: none;
+  background-color: #9a9a9a;
+  color: black;
+  font-weight:bolder;
+  font-size: 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  
+}
+
+.top-btn:hover{
+  background-color: #858484;
+
+
+}
+
+.right-btn{
+  
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+  margin: 0 4px;
+  border: none;
+  background-color: #ee9406;
+  color: white;
+  font-weight:bolder;
+  font-size: 30px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.right-btn:hover{
+  background-color: #bb7a11;
+
+
+}
+::placeholder{
+  color: white;
+}
+
+.row {
+  margin: 8px 0;
+}
+.row input {
+  
+  width: 291px;
+  font-size:200%;
+  font-weight:bolder;
+  color: white;
+  background-color: black;
+  margin: 0;
+  padding: 10px 0px;
+  border: none;
+  text-align: right;
+  
+  /* border: 2px solid black; */
+  /* border-radius: 5px; */
+}
+h1{
+  color: white;
+  font-weight: bolder;
+}
+/* 
+.container{
+  border: 5px solid white;
+  margin: 0;
+} */
