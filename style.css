@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap");
+
+
 html,
 body {
   /* height: 100%;
   width: 100%; */
   font-family: "Roboto", sans-serif;
-  background-color: black;
+  /* background-color: black; */
+  margin: 0;padding: 0;
 }
+
 
 .button {
   width: 70px;
@@ -25,7 +29,6 @@ body {
   background-color: #1b1919;
 }
 
-.button
 
 
 .top-btn{
@@ -44,7 +47,7 @@ body {
 }
 
 .top-btn:hover{
-  background-color: #858484;
+  background-color: #575353;
 
 
 }
@@ -91,11 +94,44 @@ body {
   /* border-radius: 5px; */
 }
 h1{
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: bolder;
 }
-/* 
+
 .container{
-  border: 5px solid white;
-  margin: 0;
-} */
+  
+  background-color: black;
+  padding: 15px;
+  /* display: inline-block; */
+  position:absolute;
+  border: solid rgb(0, 0, 0) ;
+  border-radius: 20px;
+  /* margin-left: ; */
+  margin: 50px 450px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .container {
+    margin: 50px 150px;
+
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .container {
+    margin: 50px 80px;
+
+  }
+}
+@media only screen and (max-width: 530px) {
+  .container {
+    margin: 50px 20px;
+
+  }
+}
+@media only screen and (max-width: 400px) {
+  .container {
+    margin: 50px 1px;
+
+  }
+}
