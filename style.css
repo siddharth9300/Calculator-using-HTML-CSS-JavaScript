@@ -8,7 +8,13 @@ body {
   font-family: "Roboto", sans-serif;
   /* background-color: black; */
   margin: 0;padding: 0;
+  transition: all 0.5s;
 }
+
+.dark-m{
+  background-color: #1b1919;
+}
+
 
 
 .button {
@@ -23,10 +29,12 @@ body {
   font-size: 30px;
   border-radius: 50px;
   cursor: pointer;
+  transition: all 0.5s;
 }
 
 .button:hover{
   background-color: #1b1919;
+  border-radius: 10px;
 }
 
 
@@ -80,13 +88,14 @@ body {
 }
 .row input {
   
-  width: 291px;
+  width: 316px;
   font-size:200%;
   font-weight:bolder;
-  color: white;
-  background-color: black;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
   margin: 0;
-  padding: 10px 0px;
+  padding: 10px 10px;
   border: none;
   text-align: right;
   
@@ -109,6 +118,8 @@ h1{
   /* margin-left: ; */
   margin: 50px 450px;
 }
+
+
 
 @media only screen and (max-width: 1280px) {
   .container {
@@ -135,3 +146,36 @@ h1{
 
   }
 }
+
+
+
+
+
+
+/* DARK MODE CSS */
+
+
+
+
+#dark{
+
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+  margin: 10px 10px;
+  border: none;
+  background-color: #000000;
+  color: white;
+  font-weight:bolder;
+  font-size: 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+
+#dark:hover{
+  background-color: #1b1919;
+  border-radius: 10px;
+}
+

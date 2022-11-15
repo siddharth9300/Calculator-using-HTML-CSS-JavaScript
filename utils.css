@@ -21,4 +21,9 @@
 .items-center{
   align-items: center;
 }
+.items-left{
+  align-items:flex-end;
+}
+
+
 
