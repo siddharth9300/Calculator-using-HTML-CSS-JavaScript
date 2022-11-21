@@ -13,6 +13,7 @@ body {
 
 .dark-mode{
   background-color: #1b1919;
+
 }
 
 
@@ -36,6 +37,7 @@ body {
   background-color: #1b1919;
   border-radius: 10px;
 }
+
 
 
 
@@ -164,18 +166,37 @@ h1{
   padding: 5px;
   margin: 10px 10px;
   border: none;
-  background-color: #000000;
+  /* background-color: #000000; */
+  /* background-image:url("/moon.svg") ; */
+
   color: white;
   font-weight:bolder;
   font-size: 20px;
   border-radius: 25px;
   cursor: pointer;
   transition: all 0.5s;
+  font-display: none;
 }
 
 
 #dark:hover{
-  background-color: #1b1919;
+  /* background-color: #1b1919; */
   border-radius: 10px;
 }
 
+.light_icon{
+  
+  /* background-color: #d6d6d6; */
+
+  background-image:url("/moon.svg") ;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dark_icon{
+  /* background-color: #535151; */
+
+    background-image:url("/sun.svg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
